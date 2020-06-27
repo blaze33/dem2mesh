@@ -1,8 +1,12 @@
 [package]
 name = "dem2mesh"
+description = "Wasm lib to quickly process DEM heightmaps, made for three.js"
 version = "0.1.0"
-authors = ["Maxime Rouyrre <rouyrre+git@gmail.com>"]
+authors = ["Maxime Rouyrre <max@openbloc.com>"]
 edition = "2018"
+repository = "https://github.com/blaze33/dem2mesh"
+license = "MIT OR Apache-2.0"
+keywords = ["wasm", "png", "DEM", "three.js", "terrain"]
 
 [lib]
 crate-type = ["cdylib", "rlib"]
